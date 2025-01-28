@@ -1,0 +1,9 @@
+saleh ,saleh.ababneh99@gmail.com,Ababneh@2
+saleh,Ababneh,Ababneh@
+john,john@example.com,password123
+alice,alice@example.com,pass456
+admin,admin@example.com,adminpass
+Rami,Rami@gmail.com,Rami@123
+Rama,Rami@gmail.com,Rama@123
+admin,admin@gmail.com,Admin123
+Saleh1,saleh1@gmail.com,Saleh@2
