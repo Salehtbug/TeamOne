@@ -38,5 +38,9 @@ namespace TeamOne
             Response.Redirect("MeetingRooms.aspx");
         }
 
+        protected void Profile_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Profile_of_user.aspx");
+        }
     }
 }

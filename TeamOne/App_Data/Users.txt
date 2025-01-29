@@ -7,3 +7,6 @@ Rami,Rami@gmail.com,Rami@123
 Rama,Rami@gmail.com,Rama@123
 admin,admin@gmail.com,Admin123
 Saleh1,saleh1@gmail.com,Saleh@2
+mohammed,mohammed@gmail.com,Facebook@123,mohammed fehmi Ahmad almaqtri,default_profile.png
+Saad,Saad@gmail.com,Ababneh@2,Saad Abdallah ababneh,default_profile.png
+Saleh,Saleh@gmail.com,Ababneh@2,Saad Sallem Ababneh,default_profile.png

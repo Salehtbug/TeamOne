@@ -78,6 +78,7 @@
     <Content Include="HomePage.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="MeetingRooms.aspx" />
+    <Content Include="Profile_of_user.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -137,6 +138,13 @@
     </Compile>
     <Compile Include="MeetingRooms.aspx.designer.cs">
       <DependentUpon>MeetingRooms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile_of_user.aspx.cs">
+      <DependentUpon>Profile_of_user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile_of_user.aspx.designer.cs">
+      <DependentUpon>Profile_of_user.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">

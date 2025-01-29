@@ -22,25 +22,25 @@ namespace TeamOne
                 return;
             }
 
-          
             string filePath = Server.MapPath("~/App_Data/Users.txt");
 
-      
-            string directoryPath = Path.GetDirectoryName(filePath);
-            if (!Directory.Exists(directoryPath))
+            if (!Directory.Exists(Path.GetDirectoryName(filePath)))
             {
-                Directory.CreateDirectory(directoryPath);
+                Directory.CreateDirectory(Path.GetDirectoryName(filePath));
             }
 
             try
             {
-            
-                string newUser = $"{txtUsername.Text},{txtEmail.Text},{txtPassword.Text}";
+                // ✅ Added Full Name and Profile Pic URL (Default Image)
+                string newUser = $"{txtUsername.Text},{txtEmail.Text},{txtPassword.Text},{txtFullName.Text},default_profile.png";
 
-           
                 File.AppendAllText(filePath, newUser + Environment.NewLine);
                 lblMessage.Text = "User registered successfully!";
-                Response.Redirect("Login.aspx");
+
+                // ✅ Store Username in Session
+                Session["LoggedInUser"] = txtUsername.Text;
+
+                Response.Redirect("Profile_of_user.aspx");
             }
             catch (Exception ex)
             {

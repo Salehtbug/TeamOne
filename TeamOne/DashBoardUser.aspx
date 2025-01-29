@@ -57,6 +57,10 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <header>
+               <asp:Button ID="btnProfile" runat="server" CssClass="btn btn-primary" Text="Go to Profile" OnClick="Profile_Click" />
+
+            </header>
             <div class="container mt-5">
         <h1 class="text-center">Powers of Students</h1>
         <div class="card-container">

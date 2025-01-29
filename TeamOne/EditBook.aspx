@@ -11,6 +11,49 @@
     <style>
         .container { margin-top: 50px; }
         .form-group { margin-bottom: 15px; }
+        .search-container {
+            position: relative;
+            width: 300px;
+            margin: 20px auto;
+        }
+         .search-container input {
+            width: 100%;
+            height: 50px;
+            border: none;
+            padding: 10px;
+            border-radius: 30px;
+            font-size: 16px;
+            text-align: center;
+            outline: none;
+            background: crimson;
+            color: white;
+            transition: all 0.5s;
+        }
+
+        .search-container input:focus {
+            width: 100%;
+            cursor: text;
+        }
+
+        .search-results {
+            position: absolute;
+            width: 100%;
+            background: white;
+            border-radius: 5px;
+            max-height: 200px;
+            overflow-y: auto;
+            display: none;
+        }
+
+        .search-results div {
+            padding: 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .search-results div:hover {
+            background: #f1f1f1;
+        }
     </style>
 </head>
 <body>

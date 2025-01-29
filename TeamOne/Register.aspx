@@ -14,12 +14,16 @@
         <div>
             <div id="container" class="bg-dark text-light p-4 rounded" style="width: 400px; margin: auto; margin-top: 100px;">
         <h2 class="text-center">Register New Account</h2>
-        <asp:TextBox ID="txtUsername" runat="server" CssClass="form-control my-2" placeholder="Username" required></asp:TextBox>
-        <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control my-2" placeholder="E-mail" required></asp:TextBox>
-        <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control my-2" TextMode="Password" placeholder="Password" required></asp:TextBox>
-        <asp:TextBox ID="txtConfirmPassword" runat="server" CssClass="form-control my-2" TextMode="Password" placeholder="Confirm Password" required></asp:TextBox>
-        <asp:Button ID="btnRegister" runat="server" CssClass="btn btn-danger w-100" Text="REGISTER" OnClick="btnRegister_Click" />
-        <asp:Label ID="lblMessage" runat="server" ForeColor="White"></asp:Label>
+       <asp:TextBox ID="txtUsername" runat="server" CssClass="form-control my-2" placeholder="Username" required></asp:TextBox>
+<asp:TextBox ID="txtEmail" runat="server" CssClass="form-control my-2" placeholder="E-mail" required></asp:TextBox>
+<asp:TextBox ID="txtFullName" runat="server" CssClass="form-control my-2" placeholder="Full Name" required></asp:TextBox>
+<asp:TextBox ID="txtPassword" runat="server" CssClass="form-control my-2" TextMode="Password" placeholder="Password" required></asp:TextBox>
+<asp:TextBox ID="txtConfirmPassword" runat="server" CssClass="form-control my-2" TextMode="Password" placeholder="Confirm Password" required></asp:TextBox>
+<asp:Button ID="btnRegister" runat="server" CssClass="btn btn-danger w-100" Text="REGISTER" OnClick="btnRegister_Click" />
+<asp:Label ID="lblMessage" runat="server" ForeColor="White"></asp:Label>
+
+                
+
     </div>
         </div>
     </form>
